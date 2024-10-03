@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class authorizationForm : Form
     {
-        public Form1()
+        public authorizationForm()
         {
             InitializeComponent();
 
@@ -115,13 +115,13 @@ namespace WindowsFormsApp1
 
                 if (list[1] == "1" || list[1] == "2")
                 {
-                    Form4 form4 = new Form4(list[0], list[1]);
+                    bookListForm form4 = new bookListForm(list[0], list[1]);
                     form4.Show();
                     this.Hide();
                 }
                 if (list[1] == "3")
                 {
-                    Form6 form6 = new Form6();
+                    peopleForm form6 = new peopleForm();
                     form6.Show();
                     this.Hide();
                 }

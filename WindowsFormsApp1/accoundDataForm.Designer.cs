@@ -2,7 +2,7 @@
 
 namespace WindowsFormsApp1
 {
-    partial class Form3
+    partial class accoundDataForm
     {
         /// <summary>
         /// Required designer variable.

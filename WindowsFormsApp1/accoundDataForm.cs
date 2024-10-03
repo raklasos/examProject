@@ -12,7 +12,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form3 : Form
+    public partial class accoundDataForm : Form
     {
 
         private string id;
@@ -22,7 +22,7 @@ namespace WindowsFormsApp1
             set { id = value; }
         }
 
-        public Form3(string id)
+        public accoundDataForm(string id)
         {
             Id = id;
             InitializeComponent();
@@ -124,21 +124,21 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4(Id, "1");
+            bookListForm form4 = new bookListForm(Id, "1");
             form4.Show();
             this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2(Id);
+            changeNameForm form2 = new changeNameForm(Id);
             form2.Show();
             this.Close();
         }
 
         private void Form3_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Form4 form4 = new Form4(Id, "1");
+            bookListForm form4 = new bookListForm(Id, "1");
             form4.Show();
             this.Close();
         }

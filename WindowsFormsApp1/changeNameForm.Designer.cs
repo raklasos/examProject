@@ -2,7 +2,7 @@
 
 namespace WindowsFormsApp1
 {
-    partial class Form2
+    partial class changeNameForm
     {
         /// <summary>
         /// Required designer variable.

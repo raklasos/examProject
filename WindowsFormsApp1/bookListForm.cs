@@ -13,7 +13,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form4 : Form
+    public partial class bookListForm : Form
     {
         private string roleId;
         public string RoleId
@@ -29,7 +29,7 @@ namespace WindowsFormsApp1
             set { id = value; }
         }
 
-        public Form4(string id, string roleId)
+        public bookListForm(string id, string roleId)
         {
             InitializeComponent();
 
@@ -161,7 +161,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3(Id);
+            accoundDataForm form3 = new accoundDataForm(Id);
             form3.Show();
             this.Hide();
         }

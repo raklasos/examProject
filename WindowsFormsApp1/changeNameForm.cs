@@ -12,7 +12,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form2 : Form
+    public partial class changeNameForm : Form
     {
 
         private string id;
@@ -22,7 +22,7 @@ namespace WindowsFormsApp1
             set { id = value; }
         }
 
-        public Form2(string id)
+        public changeNameForm(string id)
         {
             this.id = id;
             InitializeComponent();
@@ -76,14 +76,14 @@ namespace WindowsFormsApp1
             }
             catch { MessageBox.Show("Неверный номер телефона"); }
 
-            Form3 form3 = new Form3(Id);
+            accoundDataForm form3 = new accoundDataForm(Id);
             form3.Show();
             this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3(Id);
+            accoundDataForm form3 = new accoundDataForm(Id);
             form3.Show();
             this.Close();
         }
@@ -126,7 +126,7 @@ namespace WindowsFormsApp1
 
         private void Form2_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Form3 form3 = new Form3(Id);
+            accoundDataForm form3 = new accoundDataForm(Id);
             form3.Show();
             this.Close();
         }

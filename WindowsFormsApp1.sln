@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{44CB2F18-9F6E-44BC-8EAB-765769232F55}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookDaBook", "WindowsFormsApp1\BookDaBook.csproj", "{44CB2F18-9F6E-44BC-8EAB-765769232F55}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{7E725B43-B490-4BD4-AED7-3B0278312FBD}"
 EndProject

@@ -13,7 +13,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form6 : Form
+    public partial class peopleForm : Form
     {
         SqlDataAdapter dataAdapter;
         BindingSource bindingSource;
@@ -22,7 +22,7 @@ namespace WindowsFormsApp1
         DataTable table;
 
         DataBase dataBase = new DataBase();
-        public Form6()
+        public peopleForm()
         {
             InitializeComponent();
 

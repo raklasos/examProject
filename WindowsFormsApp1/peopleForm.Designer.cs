@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    partial class Form6
+    partial class peopleForm
     {
         /// <summary>
         /// Required designer variable.
